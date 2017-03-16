@@ -1,1 +1,1 @@
-Configuration task for EpicGames
+Configuration Example of MongoDB replicaset on Docker
