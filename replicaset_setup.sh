@@ -56,7 +56,7 @@ echo "Configuring replicaset priority..."
 mongo --port 27000 configure_priority.js
 sleep 20
 #Configure arbiter
-mongo --port 27001 configure_arbiter.js
+mongo --port 27000 configure_arbiter.js
 sleep 20
 echo "Replicaset configured."
 echo "Done!"
